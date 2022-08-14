@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(211, 125, 20);
+  }
+  
+  h1 {
+    color: brown;
+    font-family: 'Press Start 2P', cursive;
+  }
+  #introduction {
+    font-family: 'Lobster', cursive;
+    color:blue;
+  }
+  #content {
+    margin: 3rem auto;
+    width: 60%;
+  }
+  #content div {
+    padding: 5px;
+  }
+  #title {
+    margin-left: 3rem;
+  }
+  .heading {
+    color: white;
+    background-color: rgb(29, 3, 3);
+    font-family: 'DynaPuff', cursive;
+    border-radius: 1rem;
+  }
+  .info {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: underline;
+  }
+  .info > span {
+    color: rgb(90, 7, 7);
+    font-weight: bold;
+  }
+  .Afiyet {
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 15rem;
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+  }
+  @media (max-width:1100px) {
+    .Afiyet {
+      margin-right: 4rem;
+    }
+    #title {
+      margin-left: 1rem;
+    }
+  }
